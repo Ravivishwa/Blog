@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css?family=Nunito|Poppins:500|Open+Sans');
+@import "~bootstrap/scss/bootstrap"; */
+
+body, html,#root,.loading{
+  height: 100%;
+  background-color: rgba(0,0,0,.018);
+  color: rgba(0,0,0,.75);
+  font-family: 'Nunito';
+}
+
+.footer-copyright{
+  background-color: bisque;
+}
+
+.page-footer{
+    bottom: 0px;
+    width: 100%;
+}
+
+.app {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pagination {
+  margin-top: 25px;
+}
+.pagination span {
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 8px 18px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  
+}
+.categ{
+  margin-left: 38%
+}
+.pagination span.active {
+background-color: #0099FF;
+color: white;
+border: 1px solid #0099FF;
+}
+.loading{
+  position: relative;
+}
+
+.loadingimage{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
